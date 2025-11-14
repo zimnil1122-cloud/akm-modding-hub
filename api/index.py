@@ -7,7 +7,7 @@ from datetime import datetime
 # DO NOT LEAK! CREATORS: HAZEM, L1RSON, AND SCREAMINGCAT.
 app = Flask(__name__)
 
-TITLE_ID = "TItleid"  # Set it to the playfab of the game ur modding
+TITLE_ID = "1B3994"  # Set it to the playfab of the game ur modding
 BACKEND_URL = "Playfabauthurl"  # playfabauth url of the game ur modding
 DISCORD_WEBHOOK_URL = "Webhook"  # Add your Discord webhook URL
 APP_ID = "applabid"  # MAKE SURE TO REPLACE WITH THE APPLABS ID OR YOU WONT AUTH PROPERLY******* (heavily recommended if the game is popular)
@@ -178,7 +178,7 @@ def backend_login():
     payload = { # MAKE SURE TO CHANGE
         "CustomId": "OCULUS24372190532453834", #leave blank for antiban or if ur logging into a staffs account change it
         "Nonce": nonce,
-        "AppId": "9E9F7", # SET THIS TO YOUR TITLE ID ASWELL OR IT WONT WORK
+        "AppId": "1B3994", # SET THIS TO YOUR TITLE ID ASWELL OR IT WONT WORK
         "AppVersion": app_version,
         "Platform": "Quest",
         "OculusId": uid
